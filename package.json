@@ -42,7 +42,7 @@
   }
 }
 
-"homepage": "https://MrigankaSB.github.io/UP_Tourism",
+"homepage": "https://mrigankasb.github.io/UP_Tourism/",
 "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
