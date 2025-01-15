@@ -1,0 +1,27 @@
+/* src/styles/Footer.css */
+.footer {
+  background-color: #333;
+  color: #ccc;
+  padding: 1.5em 2em;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.footer-links a {
+  color: #ffd700;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+  transform: scale(1.05);
+}

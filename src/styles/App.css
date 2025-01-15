@@ -1,0 +1,25 @@
+/* src/styles/App.css */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin: 1.5em 0;
+  font-size: 2.5em;
+  font-family: "Georgia", serif;
+  color: #00509e;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #ff8a00;
+}

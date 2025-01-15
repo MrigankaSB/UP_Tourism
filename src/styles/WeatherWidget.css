@@ -1,0 +1,22 @@
+/* src/styles/WeatherWidget.css */
+.weather-widget {
+  background: linear-gradient(135deg, #4f93c2, #28527a);
+  color: white;
+  padding: 1em;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Arial", sans-serif;
+  margin-top: 1em;
+}
+
+.weather-widget h3 {
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.weather-widget p {
+  margin: 0.5em 0;
+  font-size: 1em;
+}

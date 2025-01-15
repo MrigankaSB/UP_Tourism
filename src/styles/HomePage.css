@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f0f0f0; /* Light background for contrast */
+}
+
+.home-page {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Hero Banner */
+.hero {
+  background: #001f3f; /* Navy blue */
+  color: white;
+  padding: 50px 40px; /* Increased padding for a wider appearance */
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 100%; /* Ensures the hero section takes full width */
+}
+
+.hero h1 {
+  font-size: 3em; /* Increased size for better emphasis */
+  margin: 0 0 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add text shadow for depth */
+  letter-spacing: 1px; /* Slight spacing for improved readability */
+}
+
+.hero p {
+  font-size: 1.5em; /* Increased size for better readability */
+  margin: 0 0 30px;
+  color: #e0e0e0; /* Light gray for more contrast against the navy background */
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.hero-buttons button {
+  background: #ffffff; /* Change to white for the button background */
+  color: #001f3f; /* Deep navy blue for button text */
+  border: none;
+  border-radius: 5px;
+  padding: 12px 24px; /* Increased padding for larger buttons */
+  font-size: 1.1em; /* Increased font size for better visibility */
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s; /* Added transform for hover effect */
+}
+
+.hero-buttons button:hover {
+  background: #e6e6e6; /* Light gray on hover for better contrast */
+  transform: translateY(-2px); /* Slight lift on hover for interactivity */
+}
+
+/* Section Styles */
+section {
+  margin: 40px 0;
+  background: white; /* White background for sections */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #001f3f; /* Navy blue for section titles */
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+section p {
+  color: #333; /* Dark gray for text */
+  line-height: 1.6;
+}
+
+/* Button Styles */
+section button {
+  background: #001f3f; /* Navy blue */
+  color: white; /* White text */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+section button:hover {
+  background: #00509e; /* Lighter navy on hover */
+}
+
+/* Testimonials Section */
+.testimonials {
+  background: #f0f0f0; /* Light background to contrast with other sections */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 40px 0; /* Maintain spacing from other sections */
+}
+
+.testimonials h2 {
+  color: #001f3f; /* Navy blue for section title */
+  margin-bottom: 20px;
+  font-size: 2em; /* Larger font for section title */
+  text-align: center; /* Center align the title */
+  text-decoration: underline; /* Underline for emphasis */
+}
+
+.testimonials blockquote {
+  border-left: 4px solid #001f3f; /* Navy blue left border for emphasis */
+  margin: 20px 0;
+  padding-left: 20px;
+  font-style: italic; /* Italic text for a different style */
+  color: #333; /* Dark gray for testimonial text */
+  background: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+  border-radius: 5px; /* Rounded corners */
+  padding: 15px; /* More padding for comfort */
+}
+
+.testimonials cite {
+  display: block;
+  text-align: right; /* Right align the citation */
+  color: #001f3f; /* Navy blue for citation */
+  font-weight: bold; /* Make citation bold for emphasis */
+  margin-top: 10px; /* Spacing above the citation */
+}
+
+/* Contact Us Section */
+.contact-us h2 {
+  color: #001f3f; /* Navy blue for titles */
+}

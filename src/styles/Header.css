@@ -1,0 +1,45 @@
+/* src/styles/Header.css */
+.header {
+  background: #001f3f; /* Deeper navy blue background */
+  padding: 1.5em 2em; /* Increased padding for a larger header */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff; /* White text color */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15); /* Shadow for depth */
+}
+
+.header-logo {
+  display: flex; /* Align logo and text in a row */
+  align-items: center; /* Center the logo vertically */
+}
+
+.header-logo img {
+  width: 100px; /* Adjust size of the logo as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Space between logo and text */
+}
+
+.header-logo h1 {
+  font-family: "Georgia", serif;
+  font-size: 2em; /* Increased size for better visibility */
+  color: #ffd700; /* Gold color for logo text */
+  margin: 0;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Shadow for contrast */
+}
+
+.header-nav a {
+  color: #ffffff; /* White for navigation links */
+  text-decoration: none;
+  font-size: 1.2em; /* Font size for links */
+  margin: 0 20px; /* Margin for spacing */
+  font-weight: 500;
+  transition: color 0.3s ease-in-out, transform 0.2s ease-in-out; /* Transition effects */
+}
+
+.header-nav a:hover {
+  color: #ffd700; /* Gold on hover for contrast */
+  border-bottom: 2px solid #ffd700; /* Gold underline on hover */
+  padding-bottom: 3px;
+  transform: scale(1.1); /* Scale up on hover */
+}
